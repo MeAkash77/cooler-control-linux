@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>org.coolercontrol.CoolerControl</id>
+    <name>CoolerControl</name>
+    <summary>Controls your cooling devices</summary>
+    <developer_name>codifryed</developer_name>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-3.0</project_license>
+
+    <url type="homepage">https://gitlab.com/coolercontrol/coolercontrol</url>
+    <url type="bugtracker">https://gitlab.com/coolercontrol/coolercontrol/-/issues</url>
+    <url type="faq">https://gitlab.com/coolercontrol/coolercontrol/-/wikis/faq</url>
+    <url type="help">https://gitlab.com/coolercontrol/coolercontrol/-/wikis/home</url>
+
+    <description>
+        <p>
+            CoolerControl is a feature-rich cooling device control application for Linux. It has a 
+            system daemon for background device management, as well as a GUI to expertly customize 
+            your settings.
+        </p>
+    </description>
+    <categories>
+        <category>Settings</category>
+        <category>HardwareSettings</category>
+    </categories>
+    <keywords>
+        <keyword>hardware</keyword>
+        <keyword>cooling</keyword>
+        <keyword>fan</keyword>
+        <keyword>aio</keyword>
+        <keyword>rgb</keyword>
+        <keyword xml:lang="de">kühlung</keyword>
+        <keyword xml:lang="de">kühlen</keyword>
+        <keyword xml:lang="de">lüfter</keyword>
+    </keywords>
+    <screenshots>
+        <screenshot type="default">
+            <image>
+                https://gitlab.com/coolercontrol/coolercontrol/raw/main/screenshots/coolercontrol-overview.png
+            </image>
+        </screenshot>
+        <screenshot>
+            <image>
+                https://gitlab.com/coolercontrol/coolercontrol/raw/main/screenshots/coolercontrol-speed.png
+            </image>
+        </screenshot>
+        <screenshot>
+            <image>
+                https://gitlab.com/coolercontrol/coolercontrol/raw/main/screenshots/coolercontrol-lighting.png
+            </image>
+        </screenshot>
+    </screenshots>
+    <launchable type="desktop-id">org.coolercontrol.CoolerControl.desktop</launchable>
+    <launchable type="service">coolercontrold.service</launchable>
+
+    <releases>
+        <release version="1.3.0" date="2024-06-07"/>
+        <release version="1.2.2" date="2024-04-13"/>
+        <release version="1.2.1" date="2024-04-02"/>
+        <release version="1.2.0" date="2024-04-01"/>
+        <release version="1.1.1" date="2024-02-16"/>
+        <release version="1.1.0" date="2024-01-31"/>
+        <release version="1.0.4" date="2024-01-15"/>
+        <release version="1.0.3" date="2024-01-15"/>
+        <release version="1.0.2" date="2024-01-14"/>
+        <release version="1.0.1" date="2024-01-12"/>
+        <release version="1.0.0" date="2024-01-07"/>
+        <release version="0.17.3" date="2023-12-15"/>
+        <release version="0.17.2" date="2023-11-28"/>
+        <release version="0.17.1" date="2023-09-13"/>
+        <release version="0.17.0" date="2023-07-16"/>
+        <release version="0.16.0" date="2023-04-23"/>
+        <release version="0.15.0" date="2023-03-14"/>
+        <release version="0.14.6" date="2023-03-01"/>
+        <release version="0.14.5" date="2023-02-27"/>
+        <release version="0.14.4" date="2023-02-14"/>
+        <release version="0.14.3" date="2023-02-09"/>
+        <release version="0.14.2" date="2023-02-07"/>
+        <release version="0.14.1" date="2023-02-06"/>
+        <release version="0.14.0" date="2023-02-05"/>
+        <release version="0.13.3" date="2022-12-11"/>
+        <release version="0.13.2" date="2022-11-13"/>
+        <release version="0.13.1" date="2022-10-20"/>
+        <release version="0.13.0" date="2022-10-16"/>
+        <release version="0.12.9" date="2022-09-30"/>
+        <release version="0.12.8" date="2022-08-26"/>
+        <release version="0.12.7" date="2022-08-13"/>
+        <release version="0.12.6" date="2022-08-04"/>
+        <release version="0.12.5" date="2022-08-02"/>
+        <release version="0.12.4" date="2022-07-24"/>
+        <release version="0.12.3" date="2022-07-12"/>
+        <release version="0.12.2" date="2022-07-10"/>
+        <release version="0.12.1" date="2022-06-26"/>
+        <release version="0.12.0" date="2022-06-22"/>
+        <release version="0.11.1" date="2022-06-01"/>
+        <release version="0.11.0" date="2022-05-30"/>
+        <release version="0.10.3" date="2022-05-14"/>
+        <release version="0.10.2" date="2022-05-08"/>
+        <release version="0.10.1" date="2022-05-02"/>
+        <release version="0.10.0" date="2022-04-30"/>
+        <release version="0.9.0" date="2022-04-06"/>
+        <release version="0.8.5" date="2022-03-25"/>
+        <release version="0.8.4" date="2022-03-19"/>
+        <release version="0.8.3" date="2022-03-07"/>
+        <release version="0.8.2" date="2022-03-05"/>
+        <release version="0.8.1" date="2022-03-03"/>
+        <release version="0.8.0" date="2022-02-27"/>
+        <release version="0.7.2" date="2022-02-23"/>
+        <release version="0.7.1" date="2022-02-18"/>
+        <release version="0.7.0" date="2022-02-12"/>
+        <release version="0.6.5" date="2022-02-04"/>
+        <release version="0.6.4" date="2022-02-02"/>
+        <release version="0.6.3" date="2022-02-01"/>
+        <release version="0.6.2" date="2022-01-31"/>
+        <release version="0.6.1" date="2022-01-29"/>
+        <release version="0.6.0" date="2022-01-25"/>
+        <release version="0.5.5" date="2022-01-21"/>
+        <release version="0.5.4" date="2022-01-10"/>
+        <release version="0.5.3" date="2022-01-10"/>
+        <release version="0.5.2" date="2022-01-08"/>
+        <release version="0.5.1" date="2022-01-07"/>
+        <release version="0.5.0" date="2022-01-06"/>
+        <release version="0.4.1" date="2021-12-31"/>
+        <release version="0.4.0" date="2021-12-26"/>
+        <release version="0.3.2" date="2021-12-14"/>
+        <release version="0.3.1" date="2021-12-09"/>
+        <release version="0.3.0" date="2021-12-04"/>
+        <release version="0.2.2" date="2021-11-30"/>
+        <release version="0.2.1" date="2021-11-20"/>
+        <release version="0.2.0" date="2021-11-14"/>
+        <release version="0.1.0" date="2021-11-13"/>
+    </releases>
+
+    <content_rating type="oars-1.1"/>
+</component>
